@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC -O3   CMakeFiles/main_svgSample.dir/main.cpp.o  -o ../../Linux-armv7l-RELEASE/main_svgSample -rdynamic 

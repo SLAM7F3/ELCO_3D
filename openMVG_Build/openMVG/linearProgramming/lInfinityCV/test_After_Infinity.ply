@@ -1,0 +1,27 @@
+ply
+format ascii 1.0
+comment NViewDataSet export
+comment It shows 3D point structure and cameras+ camera looking direction
+element vertex 15
+property float x
+property float y
+property float z
+property uchar red
+property uchar green
+property uchar blue
+end_header
+  0.0285974 -0.00887856   -0.326467 255 255 255
+ 0.025088 0.0346046  -0.37569 255 255 255
+-0.0138518  0.0225484  -0.368947 255 255 255
+ 0.00453692 -0.00190009   -0.339432 255 255 255
+-0.0113667 0.00112653  -0.312249 255 255 255
+ 0 -0  0 0 255 0
+    0.460364 -2.21717e-12     0.149581 0 255 0
+    0.744884 -1.19745e-11     -1.02524 0 255 0
+  -0.744884 4.28024e-12    -1.02524 0 255 0
+   -0.460364 -7.20785e-12     0.149581 0 255 0
+   0    0 -0.4 255 0 0
+     0.18938 -2.21717e-12    -0.144643 255 0 0
+    0.448475 -1.19745e-11    -0.756653 255 0 0
+  -0.448475 4.28024e-12   -0.756653 255 0 0
+    -0.18938 -7.20785e-12    -0.144643 255 0 0

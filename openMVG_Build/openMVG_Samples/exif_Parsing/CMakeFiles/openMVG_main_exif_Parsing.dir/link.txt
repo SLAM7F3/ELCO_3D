@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -O3   CMakeFiles/openMVG_main_exif_Parsing.dir/exifParsing.cpp.o  -o ../../Linux-armv7l-RELEASE/openMVG_main_exif_Parsing -rdynamic ../../Linux-armv7l-RELEASE/libeasyexif.a 

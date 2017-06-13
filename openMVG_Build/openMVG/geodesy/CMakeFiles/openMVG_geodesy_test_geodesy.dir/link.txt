@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -O3   CMakeFiles/openMVG_geodesy_test_geodesy.dir/geodesy_test.cpp.o  -o ../../Linux-armv7l-RELEASE/openMVG_geodesy_test_geodesy -rdynamic ../../Linux-armv7l-RELEASE/libopenMVG_numeric.a ../../Linux-armv7l-RELEASE/libCppUnitLite.a 

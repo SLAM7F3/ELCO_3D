@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../Linux-armv7l-RELEASE/libopenMVG_matching_image_collection.a  CMakeFiles/openMVG_matching_image_collection.dir/Matcher_Regions_AllInMemory.cpp.o CMakeFiles/openMVG_matching_image_collection.dir/Cascade_Hashing_Matcher_Regions_AllInMemory.cpp.o
+/usr/bin/ranlib ../../Linux-armv7l-RELEASE/libopenMVG_matching_image_collection.a

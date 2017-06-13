@@ -1,0 +1,1392 @@
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e973d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e973d.dir/build.make CMakeFiles/cmTC_e973d.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e973d.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_sse2   -mno-sse2 -o CMakeFiles/cmTC_e973d.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-sse2'
+Linking C executable cmTC_e973d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e973d.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_sse2    CMakeFiles/cmTC_e973d.dir/src.c.o  -o cmTC_e973d -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d5a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d5a4.dir/build.make CMakeFiles/cmTC_5d5a4.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d5a4.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_sse2   -mno-sse2 -o CMakeFiles/cmTC_5d5a4.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-sse2'
+Linking CXX executable cmTC_5d5a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d5a4.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_sse2    CMakeFiles/cmTC_5d5a4.dir/src.cxx.o  -o cmTC_5d5a4 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse3 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ed55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ed55.dir/build.make CMakeFiles/cmTC_8ed55.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ed55.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_sse3   -mno-sse3 -o CMakeFiles/cmTC_8ed55.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-sse3'
+Linking C executable cmTC_8ed55
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed55.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_sse3    CMakeFiles/cmTC_8ed55.dir/src.c.o  -o cmTC_8ed55 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse3 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb0fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb0fe.dir/build.make CMakeFiles/cmTC_fb0fe.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fb0fe.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_sse3   -mno-sse3 -o CMakeFiles/cmTC_fb0fe.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-sse3'
+Linking CXX executable cmTC_fb0fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb0fe.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_sse3    CMakeFiles/cmTC_fb0fe.dir/src.cxx.o  -o cmTC_fb0fe -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_ssse3 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cda3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cda3.dir/build.make CMakeFiles/cmTC_1cda3.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cda3.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_ssse3   -mno-ssse3 -o CMakeFiles/cmTC_1cda3.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-ssse3'
+Linking C executable cmTC_1cda3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cda3.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_ssse3    CMakeFiles/cmTC_1cda3.dir/src.c.o  -o cmTC_1cda3 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_ssse3 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_122ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_122ff.dir/build.make CMakeFiles/cmTC_122ff.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_122ff.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_ssse3   -mno-ssse3 -o CMakeFiles/cmTC_122ff.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-ssse3'
+Linking CXX executable cmTC_122ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_122ff.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_ssse3    CMakeFiles/cmTC_122ff.dir/src.cxx.o  -o cmTC_122ff -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4_1 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76bc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76bc8.dir/build.make CMakeFiles/cmTC_76bc8.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76bc8.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_sse4_1   -mno-sse4.1 -o CMakeFiles/cmTC_76bc8.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-sse4.1'
+Linking C executable cmTC_76bc8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76bc8.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_sse4_1    CMakeFiles/cmTC_76bc8.dir/src.c.o  -o cmTC_76bc8 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4_1 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60885/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60885.dir/build.make CMakeFiles/cmTC_60885.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60885.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_sse4_1   -mno-sse4.1 -o CMakeFiles/cmTC_60885.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-sse4.1'
+Linking CXX executable cmTC_60885
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60885.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_sse4_1    CMakeFiles/cmTC_60885.dir/src.cxx.o  -o cmTC_60885 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4_2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1b80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1b80.dir/build.make CMakeFiles/cmTC_c1b80.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1b80.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_sse4_2   -mno-sse4.2 -o CMakeFiles/cmTC_c1b80.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-sse4.2'
+Linking C executable cmTC_c1b80
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b80.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_sse4_2    CMakeFiles/cmTC_c1b80.dir/src.c.o  -o cmTC_c1b80 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4_2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c265/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c265.dir/build.make CMakeFiles/cmTC_1c265.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c265.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_sse4_2   -mno-sse4.2 -o CMakeFiles/cmTC_1c265.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-sse4.2'
+Linking CXX executable cmTC_1c265
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c265.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_sse4_2    CMakeFiles/cmTC_1c265.dir/src.cxx.o  -o cmTC_1c265 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_sse4a failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95c28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95c28.dir/build.make CMakeFiles/cmTC_95c28.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95c28.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_sse4a   -mno-sse4a -o CMakeFiles/cmTC_95c28.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-sse4a'
+Linking C executable cmTC_95c28
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95c28.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_sse4a    CMakeFiles/cmTC_95c28.dir/src.c.o  -o cmTC_95c28 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4a failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5c95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5c95.dir/build.make CMakeFiles/cmTC_b5c95.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5c95.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_sse4a   -mno-sse4a -o CMakeFiles/cmTC_b5c95.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-sse4a'
+Linking CXX executable cmTC_b5c95
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c95.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_sse4a    CMakeFiles/cmTC_b5c95.dir/src.cxx.o  -o cmTC_b5c95 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de8ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de8ab.dir/build.make CMakeFiles/cmTC_de8ab.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de8ab.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_avx   -mno-avx -o CMakeFiles/cmTC_de8ab.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-avx'
+Linking C executable cmTC_de8ab
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de8ab.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_avx    CMakeFiles/cmTC_de8ab.dir/src.c.o  -o cmTC_de8ab -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dc6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dc6c.dir/build.make CMakeFiles/cmTC_5dc6c.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5dc6c.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_avx   -mno-avx -o CMakeFiles/cmTC_5dc6c.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-avx'
+Linking CXX executable cmTC_5dc6c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc6c.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_avx    CMakeFiles/cmTC_5dc6c.dir/src.cxx.o  -o cmTC_5dc6c -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_xop failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43f56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43f56.dir/build.make CMakeFiles/cmTC_43f56.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43f56.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_xop   -mno-xop -o CMakeFiles/cmTC_43f56.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-xop'
+Linking C executable cmTC_43f56
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f56.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_xop    CMakeFiles/cmTC_43f56.dir/src.c.o  -o cmTC_43f56 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_xop failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_648f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_648f7.dir/build.make CMakeFiles/cmTC_648f7.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_648f7.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_xop   -mno-xop -o CMakeFiles/cmTC_648f7.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-xop'
+Linking CXX executable cmTC_648f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_648f7.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_xop    CMakeFiles/cmTC_648f7.dir/src.cxx.o  -o cmTC_648f7 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_fma4 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_283ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_283ca.dir/build.make CMakeFiles/cmTC_283ca.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_283ca.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_fma4   -mno-fma4 -o CMakeFiles/cmTC_283ca.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-fma4'
+Linking C executable cmTC_283ca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_283ca.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_fma4    CMakeFiles/cmTC_283ca.dir/src.c.o  -o cmTC_283ca -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma4 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97f94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97f94.dir/build.make CMakeFiles/cmTC_97f94.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97f94.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_fma4   -mno-fma4 -o CMakeFiles/cmTC_97f94.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-fma4'
+Linking CXX executable cmTC_97f94
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f94.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_fma4    CMakeFiles/cmTC_97f94.dir/src.cxx.o  -o cmTC_97f94 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test check_c_compiler_flag__mno_avx2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98452/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98452.dir/build.make CMakeFiles/cmTC_98452.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98452.dir/src.c.o
+/usr/bin/clang    -march=generic -Dcheck_c_compiler_flag__mno_avx2   -mno-avx2 -o CMakeFiles/cmTC_98452.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-mno-avx2'
+Linking C executable cmTC_98452
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98452.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -Dcheck_c_compiler_flag__mno_avx2    CMakeFiles/cmTC_98452.dir/src.c.o  -o cmTC_98452 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx2 failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20b7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20b7c.dir/build.make CMakeFiles/cmTC_20b7c.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20b7c.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -Dcheck_cxx_compiler_flag__mno_avx2   -mno-avx2 -o CMakeFiles/cmTC_20b7c.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-mno-avx2'
+Linking CXX executable cmTC_20b7c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20b7c.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -Dcheck_cxx_compiler_flag__mno_avx2    CMakeFiles/cmTC_20b7c.dir/src.cxx.o  -o cmTC_20b7c -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8c76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8c76.dir/build.make CMakeFiles/cmTC_f8c76.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8c76.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_f8c76.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_f8c76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f8c76.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f8c76.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8c76/fast' failed
+make: *** [cmTC_f8c76/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d4a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d4a5.dir/build.make CMakeFiles/cmTC_7d4a5.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d4a5.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_7d4a5.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_7d4a5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d4a5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d4a5.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d4a5/fast' failed
+make: *** [cmTC_7d4a5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45899/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45899.dir/build.make CMakeFiles/cmTC_45899.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45899.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_45899.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTC_45899.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_45899.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_45899.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_45899/fast' failed
+make: *** [cmTC_45899/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04e06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04e06.dir/build.make CMakeFiles/cmTC_04e06.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04e06.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_04e06.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTC_04e06.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_04e06.dir/src.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_04e06.dir/src.c.o] Error 1
+Makefile:126: recipe for target 'cmTC_04e06/fast' failed
+make: *** [cmTC_04e06/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5041/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5041.dir/build.make CMakeFiles/cmTC_f5041.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5041.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_f5041.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_f5041.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f5041.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f5041.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5041/fast' failed
+make: *** [cmTC_f5041/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82536/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82536.dir/build.make CMakeFiles/cmTC_82536.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82536.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_82536.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTC_82536.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_82536.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_82536.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82536/fast' failed
+make: *** [cmTC_82536/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b298b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b298b.dir/build.make CMakeFiles/cmTC_b298b.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b298b.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_b298b.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTC_b298b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b298b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b298b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b298b/fast' failed
+make: *** [cmTC_b298b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aab8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aab8f.dir/build.make CMakeFiles/cmTC_aab8f.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aab8f.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_aab8f.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTC_aab8f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aab8f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_aab8f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aab8f/fast' failed
+make: *** [cmTC_aab8f/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5c66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5c66.dir/build.make CMakeFiles/cmTC_f5c66.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5c66.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_f5c66.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTC_f5c66.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f5c66.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f5c66.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5c66/fast' failed
+make: *** [cmTC_f5c66/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41342/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41342.dir/build.make CMakeFiles/cmTC_41342.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41342.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_41342.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_41342.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_41342.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_41342.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41342/fast' failed
+make: *** [cmTC_41342/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70117/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70117.dir/build.make CMakeFiles/cmTC_70117.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70117.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_70117.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_70117.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_70117.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_70117.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70117/fast' failed
+make: *** [cmTC_70117/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e3b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e3b6.dir/build.make CMakeFiles/cmTC_5e3b6.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e3b6.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_5e3b6.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTC_5e3b6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5e3b6.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5e3b6.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e3b6/fast' failed
+make: *** [cmTC_5e3b6/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c401c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c401c.dir/build.make CMakeFiles/cmTC_c401c.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c401c.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_c401c.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTC_c401c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c401c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c401c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c401c/fast' failed
+make: *** [cmTC_c401c/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa811/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa811.dir/build.make CMakeFiles/cmTC_aa811.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa811.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_aa811.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_aa811.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aa811.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_aa811.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aa811/fast' failed
+make: *** [cmTC_aa811/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cd79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cd79.dir/build.make CMakeFiles/cmTC_3cd79.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cd79.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_3cd79.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTC_3cd79.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3cd79.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3cd79.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3cd79/fast' failed
+make: *** [cmTC_3cd79/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_958e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_958e7.dir/build.make CMakeFiles/cmTC_958e7.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_958e7.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_958e7.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTC_958e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_958e7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_958e7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_958e7/fast' failed
+make: *** [cmTC_958e7/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ba6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ba6a.dir/build.make CMakeFiles/cmTC_5ba6a.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ba6a.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_5ba6a.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTC_5ba6a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5ba6a.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_5ba6a.dir/src.cxx.o] Error 1
+Makefile:126: recipe for target 'cmTC_5ba6a/fast' failed
+make: *** [cmTC_5ba6a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36065/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36065.dir/build.make CMakeFiles/cmTC_36065.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36065.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_36065.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTC_36065.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_36065.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_36065.dir/src.cxx.o] Error 1
+Makefile:126: recipe for target 'cmTC_36065/fast' failed
+make: *** [cmTC_36065/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44c37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44c37.dir/build.make CMakeFiles/cmTC_44c37.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44c37.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_44c37.dir/CheckSymbolExists.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44c37
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c37.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_44c37.dir/CheckSymbolExists.c.o  -o cmTC_44c37 -rdynamic 
+CMakeFiles/cmTC_44c37.dir/CheckSymbolExists.c.o: En la función `main':
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x3c): referencia a `pthread_create' sin definir
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x44): referencia a `pthread_create' sin definir
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_44c37.dir/build.make:97: recipe for target 'cmTC_44c37' failed
+make[1]: *** [cmTC_44c37] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_44c37/fast' failed
+make: *** [cmTC_44c37/fast] Error 2
+
+File /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e50a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e50a6.dir/build.make CMakeFiles/cmTC_e50a6.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e50a6.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e50a6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e50a6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e50a6.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e50a6.dir/CheckFunctionExists.c.o  -o cmTC_e50a6 -rdynamic -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_e50a6.dir/build.make:97: recipe for target 'cmTC_e50a6' failed
+make[1]: *** [cmTC_e50a6] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e50a6/fast' failed
+make: *** [cmTC_e50a6/fast] Error 2
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0c07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0c07.dir/build.make CMakeFiles/cmTC_a0c07.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0c07.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_a0c07.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+CMakeFiles/cmTC_a0c07.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a0c07.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a0c07.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a0c07/fast' failed
+make: *** [cmTC_a0c07/fast] Error 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_548e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_548e6.dir/build.make CMakeFiles/cmTC_548e6.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_548e6.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=jbg_newlen   -o CMakeFiles/cmTC_548e6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_548e6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_548e6.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=jbg_newlen    CMakeFiles/cmTC_548e6.dir/CheckFunctionExists.c.o  -o cmTC_548e6 -rdynamic 
+CMakeFiles/cmTC_548e6.dir/CheckFunctionExists.c.o: En la función `main':
+/usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c:(.text+0x5c): referencia a `jbg_newlen' sin definir
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_548e6.dir/build.make:97: recipe for target 'cmTC_548e6' failed
+make[1]: *** [cmTC_548e6] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_548e6/fast' failed
+make: *** [cmTC_548e6/fast] Error 2
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2748a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2748a.dir/build.make CMakeFiles/cmTC_2748a.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2748a.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_2748a.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_2748a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2748a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2748a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2748a/fast' failed
+make: *** [cmTC_2748a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f538/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f538.dir/build.make CMakeFiles/cmTC_8f538.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f538.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_8f538.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_8f538.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f538.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f538.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f538/fast' failed
+make: *** [cmTC_8f538/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8991/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8991.dir/build.make CMakeFiles/cmTC_a8991.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8991.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_a8991.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTC_a8991.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a8991.dir/src.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_a8991.dir/src.c.o] Error 1
+Makefile:126: recipe for target 'cmTC_a8991/fast' failed
+make: *** [cmTC_a8991/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78905/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78905.dir/build.make CMakeFiles/cmTC_78905.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78905.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_78905.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTC_78905.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_78905.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_78905.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78905/fast' failed
+make: *** [cmTC_78905/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b7d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b7d2.dir/build.make CMakeFiles/cmTC_7b7d2.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b7d2.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_7b7d2.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_7b7d2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7b7d2.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7b7d2.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b7d2/fast' failed
+make: *** [cmTC_7b7d2/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce1c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce1c7.dir/build.make CMakeFiles/cmTC_ce1c7.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce1c7.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_ce1c7.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTC_ce1c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ce1c7.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ce1c7.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce1c7/fast' failed
+make: *** [cmTC_ce1c7/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e138/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e138.dir/build.make CMakeFiles/cmTC_2e138.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e138.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_2e138.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTC_2e138.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2e138.dir/src.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_2e138.dir/src.c.o] Error 1
+Makefile:126: recipe for target 'cmTC_2e138/fast' failed
+make: *** [cmTC_2e138/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b459/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b459.dir/build.make CMakeFiles/cmTC_1b459.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b459.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_1b459.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTC_1b459.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1b459.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1b459.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1b459/fast' failed
+make: *** [cmTC_1b459/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7877/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7877.dir/build.make CMakeFiles/cmTC_f7877.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7877.dir/src.c.o
+/usr/bin/clang    -march=generic -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_f7877.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTC_f7877.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f7877.dir/src.c.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_f7877.dir/src.c.o] Error 1
+Makefile:126: recipe for target 'cmTC_f7877/fast' failed
+make: *** [cmTC_f7877/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47ae9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47ae9.dir/build.make CMakeFiles/cmTC_47ae9.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47ae9.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_47ae9.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_47ae9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_47ae9.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_47ae9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_47ae9/fast' failed
+make: *** [cmTC_47ae9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57169.dir/build.make CMakeFiles/cmTC_57169.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57169.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_57169.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_57169.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_57169.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_57169.dir/src.cxx.o] Error 1
+Makefile:126: recipe for target 'cmTC_57169/fast' failed
+make: *** [cmTC_57169/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ec54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ec54.dir/build.make CMakeFiles/cmTC_7ec54.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ec54.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_7ec54.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTC_7ec54.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7ec54.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7ec54.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7ec54/fast' failed
+make: *** [cmTC_7ec54/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1afbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1afbd.dir/build.make CMakeFiles/cmTC_1afbd.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1afbd.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_1afbd.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTC_1afbd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1afbd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1afbd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1afbd/fast' failed
+make: *** [cmTC_1afbd/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17582.dir/build.make CMakeFiles/cmTC_17582.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17582.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_17582.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx:7:3: error: use of undeclared identifier 'breaks_on_purpose'
+  breaks_on_purpose
+  ^
+1 error generated.
+CMakeFiles/cmTC_17582.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_17582.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_17582.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_17582/fast' failed
+make: *** [cmTC_17582/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cb4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cb4a.dir/build.make CMakeFiles/cmTC_6cb4a.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6cb4a.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_6cb4a.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTC_6cb4a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6cb4a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6cb4a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6cb4a/fast' failed
+make: *** [cmTC_6cb4a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5246e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5246e.dir/build.make CMakeFiles/cmTC_5246e.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5246e.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_5246e.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTC_5246e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5246e.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5246e/fast' failed
+make[1]: *** [CMakeFiles/cmTC_5246e.dir/src.cxx.o] Error 1
+make: *** [cmTC_5246e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c46cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c46cf.dir/build.make CMakeFiles/cmTC_c46cf.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c46cf.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_c46cf.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTC_c46cf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c46cf.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c46cf.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c46cf/fast' failed
+make: *** [cmTC_c46cf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2611/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2611.dir/build.make CMakeFiles/cmTC_e2611.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2611.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_e2611.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTC_e2611.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e2611.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTC_e2611.dir/src.cxx.o] Error 1
+Makefile:126: recipe for target 'cmTC_e2611/fast' failed
+make: *** [cmTC_e2611/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

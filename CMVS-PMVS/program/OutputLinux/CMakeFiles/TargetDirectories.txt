@@ -1,0 +1,10 @@
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/thirdParty/nlopt-2.4.2/CMakeFiles/nlopt.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/main/CMakeFiles/cmvs.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/thirdParty/graclus1.2/CMakeFiles/graclus_lib.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/main/CMakeFiles/genOption.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/main/CMakeFiles/pmvs2.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/base/pmvs/CMakeFiles/pmvs_lib.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/base/numeric/CMakeFiles/numeric_lib.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/thirdParty/tinycthread/CMakeFiles/tinycthread.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/base/image/CMakeFiles/image_lib.dir
+/home/pi/Downloads/CMVS-PMVS/program/OutputLinux/base/cmvs/CMakeFiles/cmvs_lib.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Downloads/CMVS-PMVS/program/thirdParty/tinycthread/tinycthread.c
+tinycthread.h
+/home/pi/Downloads/CMVS-PMVS/program/thirdParty/tinycthread/tinycthread.h
+stdlib.h
+-
+signal.h
+-
+sched.h
+-
+unistd.h
+-
+sys/time.h
+-
+errno.h
+-
+process.h
+-
+sys/timeb.h
+-
+
+/home/pi/Downloads/CMVS-PMVS/program/thirdParty/tinycthread/tinycthread.h
+time.h
+-
+pthread.h
+-
+windows.h
+-
+

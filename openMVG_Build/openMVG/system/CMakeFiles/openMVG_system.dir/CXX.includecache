@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Downloads/openMVG/src/openMVG/system/timer.cpp
+openMVG/system/timer.hpp
+/home/pi/Downloads/openMVG/src/openMVG/system/openMVG/system/timer.hpp
+windows.h
+-
+sys/time.h
+-
+
+/home/pi/Downloads/openMVG/src/openMVG/system/timer.hpp
+chrono
+-
+iostream
+-
+

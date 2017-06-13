@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -O3   CMakeFiles/openMVG_test_Pair_Builder.dir/Pair_Builder_test.cpp.o  -o ../../Linux-armv7l-RELEASE/openMVG_test_Pair_Builder -rdynamic ../../Linux-armv7l-RELEASE/libCppUnitLite.a 

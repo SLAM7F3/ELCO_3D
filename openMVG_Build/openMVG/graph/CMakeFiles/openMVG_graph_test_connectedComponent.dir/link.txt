@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -O3   CMakeFiles/openMVG_graph_test_connectedComponent.dir/connectedComponent_test.cpp.o  -o ../../Linux-armv7l-RELEASE/openMVG_graph_test_connectedComponent -rdynamic ../../Linux-armv7l-RELEASE/liblemon.a ../../Linux-armv7l-RELEASE/libCppUnitLite.a 

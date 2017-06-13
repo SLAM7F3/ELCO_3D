@@ -1,0 +1,1 @@
+/usr/bin/clang++    -march=generic --std=c++11 -O3   CMakeFiles/openMVG_test_split.dir/split_test.cpp.o  -o ../../Linux-armv7l-RELEASE/openMVG_test_split -rdynamic ../../Linux-armv7l-RELEASE/libCppUnitLite.a 

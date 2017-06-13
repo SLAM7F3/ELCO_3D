@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../Linux-armv7l-RELEASE/libeasyexif.a  CMakeFiles/easyexif.dir/exif.cpp.o
+/usr/bin/ranlib ../../Linux-armv7l-RELEASE/libeasyexif.a

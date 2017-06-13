@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/openMVG_test_global_quantile_gain_offset_alignment.dir/global_quantile_gain_offset_alignment_test.cpp.o"
+  "../../Linux-armv7l-RELEASE/openMVG_test_global_quantile_gain_offset_alignment.pdb"
+  "../../Linux-armv7l-RELEASE/openMVG_test_global_quantile_gain_offset_alignment"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/openMVG_test_global_quantile_gain_offset_alignment.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

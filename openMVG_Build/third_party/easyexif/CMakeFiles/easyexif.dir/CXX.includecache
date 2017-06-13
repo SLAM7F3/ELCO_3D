@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Downloads/openMVG/src/third_party/easyexif/exif.cpp
+exif.h
+/home/pi/Downloads/openMVG/src/third_party/easyexif/exif.h
+algorithm
+-
+cstdint
+-
+stdio.h
+-
+limits
+-
+vector
+-
+
+/home/pi/Downloads/openMVG/src/third_party/easyexif/exif.h
+string
+-
+

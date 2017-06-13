@@ -1,0 +1,984 @@
+The system is: Linux - 4.4.50-v7+ - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/pi/Downloads/openMVG_Build2/CMakeFiles/3.4.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/pi/Downloads/openMVG_Build2/CMakeFiles/3.4.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acc1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acc1a.dir/build.make CMakeFiles/cmTC_acc1a.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acc1a.dir/testCCompiler.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_acc1a.dir/testCCompiler.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_acc1a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acc1a.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_acc1a.dir/testCCompiler.c.o  -o cmTC_acc1a -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00e88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00e88.dir/build.make CMakeFiles/cmTC_00e88.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_00e88
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e88.dir/link.txt --verbose=1
+/usr/bin/clang      -v CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o  -o cmTC_00e88 -rdynamic  
+Raspbian clang version 3.5.0-10+rpi1 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
+Target: arm-unknown-linux-gnueabihf
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8.4
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9.2
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9.2
+Selected GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/usr/bin/ld" -export-dynamic -X --hash-style=both --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-linux-armhf.so.3 -o cmTC_00e88 /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib -L/usr/lib/llvm-3.5/bin/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/arm-linux-gnueabihf/../../lib -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_00e88/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_00e88.dir/build.make CMakeFiles/cmTC_00e88.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang     -o CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_00e88]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e88.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang      -v CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o  -o cmTC_00e88 -rdynamic  ]
+  ignore line: [Raspbian clang version 3.5.0-10+rpi1 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
+  ignore line: [Target: arm-unknown-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6.4]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7.3]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9.2]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "/usr/bin/ld" -export-dynamic -X --hash-style=both --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-linux-armhf.so.3 -o cmTC_00e88 /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib -L/usr/lib/llvm-3.5/bin/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/arm-linux-gnueabihf/../../lib -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_00e88] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabihf/../../lib] ==> dir [/usr/lib/arm-linux-gnueabihf/../../lib]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_00e88.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf/../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.9;/usr/lib/arm-linux-gnueabihf;/usr/lib;/usr/lib/llvm-3.5/lib;/lib/arm-linux-gnueabihf;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_992c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_992c8.dir/build.make CMakeFiles/cmTC_992c8.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_992c8.dir/feature_tests.c.o
+/usr/bin/clang    -std=c11 -o CMakeFiles/cmTC_992c8.dir/feature_tests.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_992c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992c8.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_992c8.dir/feature_tests.c.o  -o cmTC_992c8 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b555/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b555.dir/build.make CMakeFiles/cmTC_0b555.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b555.dir/feature_tests.c.o
+/usr/bin/clang    -std=c99 -o CMakeFiles/cmTC_0b555.dir/feature_tests.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0b555
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b555.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_0b555.dir/feature_tests.c.o  -o cmTC_0b555 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1aae3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1aae3.dir/build.make CMakeFiles/cmTC_1aae3.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1aae3.dir/feature_tests.c.o
+/usr/bin/clang    -std=c90 -o CMakeFiles/cmTC_1aae3.dir/feature_tests.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1aae3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aae3.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_1aae3.dir/feature_tests.c.o  -o cmTC_1aae3 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d915f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d915f.dir/build.make CMakeFiles/cmTC_d915f.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d915f.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++      -o CMakeFiles/cmTC_d915f.dir/testCXXCompiler.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d915f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d915f.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTC_d915f.dir/testCXXCompiler.cxx.o  -o cmTC_d915f -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df881/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df881.dir/build.make CMakeFiles/cmTC_df881.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++      -o CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_df881
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df881.dir/link.txt --verbose=1
+/usr/bin/clang++       -v CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df881 -rdynamic  
+Raspbian clang version 3.5.0-10+rpi1 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
+Target: arm-unknown-linux-gnueabihf
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8.4
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9.2
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6.4
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7.3
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9
+Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9.2
+Selected GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/usr/bin/ld" -export-dynamic -X --hash-style=both --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-linux-armhf.so.3 -o cmTC_df881 /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib -L/usr/lib/llvm-3.5/bin/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/arm-linux-gnueabihf/../../lib -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df881/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_df881.dir/build.make CMakeFiles/cmTC_df881.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++      -o CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_df881]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df881.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++       -v CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df881 -rdynamic  ]
+  ignore line: [Raspbian clang version 3.5.0-10+rpi1 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
+  ignore line: [Target: arm-unknown-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.6.4]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.6.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.7.3]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/arm-linux-gnueabihf/4.9.2]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "/usr/bin/ld" -export-dynamic -X --hash-style=both --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-linux-armhf.so.3 -o cmTC_df881 /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib -L/usr/lib/llvm-3.5/bin/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/arm-linux-gnueabihf/../../lib -L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_df881] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabihf/../../lib] ==> dir [/usr/lib/arm-linux-gnueabihf/../../lib]
+    arg [-L/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_df881.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf/../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.9;/usr/lib/arm-linux-gnueabihf;/usr/lib;/usr/lib/llvm-3.5/lib;/lib/arm-linux-gnueabihf;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bdf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bdf8.dir/build.make CMakeFiles/cmTC_7bdf8.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bdf8.dir/feature_tests.cxx.o
+/usr/bin/clang++     -std=c++14 -o CMakeFiles/cmTC_7bdf8.dir/feature_tests.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7bdf8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bdf8.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTC_7bdf8.dir/feature_tests.cxx.o  -o cmTC_7bdf8 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_680d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_680d7.dir/build.make CMakeFiles/cmTC_680d7.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_680d7.dir/feature_tests.cxx.o
+/usr/bin/clang++     -std=c++11 -o CMakeFiles/cmTC_680d7.dir/feature_tests.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_680d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_680d7.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTC_680d7.dir/feature_tests.cxx.o  -o cmTC_680d7 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ef17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ef17.dir/build.make CMakeFiles/cmTC_5ef17.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ef17.dir/feature_tests.cxx.o
+/usr/bin/clang++     -std=c++98 -o CMakeFiles/cmTC_5ef17.dir/feature_tests.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5ef17
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef17.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTC_5ef17.dir/feature_tests.cxx.o  -o cmTC_5ef17 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test check_c_compiler_flag__march_generic succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21af4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21af4.dir/build.make CMakeFiles/cmTC_21af4.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21af4.dir/src.c.o
+/usr/bin/clang    -Dcheck_c_compiler_flag__march_generic   -march=generic -o CMakeFiles/cmTC_21af4.dir/src.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_21af4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21af4.dir/link.txt --verbose=1
+/usr/bin/clang   -Dcheck_c_compiler_flag__march_generic    CMakeFiles/cmTC_21af4.dir/src.c.o  -o cmTC_21af4 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_generic succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_956e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_956e4.dir/build.make CMakeFiles/cmTC_956e4.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_956e4.dir/src.cxx.o
+/usr/bin/clang++     -Dcheck_cxx_compiler_flag__march_generic   -march=generic -o CMakeFiles/cmTC_956e4.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_956e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_956e4.dir/link.txt --verbose=1
+/usr/bin/clang++    -Dcheck_cxx_compiler_flag__march_generic    CMakeFiles/cmTC_956e4.dir/src.cxx.o  -o cmTC_956e4 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test SUPPORTS_STD_CXX11 succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_391a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_391a2.dir/build.make CMakeFiles/cmTC_391a2.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_391a2.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -DSUPPORTS_STD_CXX11   --std=c++11 -o CMakeFiles/cmTC_391a2.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_391a2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_391a2.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -DSUPPORTS_STD_CXX11    CMakeFiles/cmTC_391a2.dir/src.cxx.o  -o cmTC_391a2 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test SUPPORTS_STD_CXX01 succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a710/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a710.dir/build.make CMakeFiles/cmTC_4a710.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a710.dir/src.cxx.o
+/usr/bin/clang++     -march=generic -DSUPPORTS_STD_CXX01   --std=c++0x -o CMakeFiles/cmTC_4a710.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4a710
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a710.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic -DSUPPORTS_STD_CXX01    CMakeFiles/cmTC_4a710.dir/src.cxx.o  -o cmTC_4a710 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the include file thread exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d737/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d737.dir/build.make CMakeFiles/cmTC_4d737.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d737.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11    -o CMakeFiles/cmTC_4d737.dir/CheckIncludeFile.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4d737
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d737.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11     CMakeFiles/cmTC_4d737.dir/CheckIncludeFile.cxx.o  -o cmTC_4d737 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file chrono exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9258b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9258b.dir/build.make CMakeFiles/cmTC_9258b.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9258b.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11    -o CMakeFiles/cmTC_9258b.dir/CheckIncludeFile.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9258b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9258b.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11     CMakeFiles/cmTC_9258b.dir/CheckIncludeFile.cxx.o  -o cmTC_9258b -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b045e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b045e.dir/build.make CMakeFiles/cmTC_b045e.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b045e.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_b045e.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b045e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b045e.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_b045e.dir/CheckIncludeFile.c.o  -o cmTC_b045e -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d156e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d156e.dir/build.make CMakeFiles/cmTC_d156e.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d156e.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_d156e.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d156e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d156e.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_d156e.dir/CheckIncludeFile.c.o  -o cmTC_d156e -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a549c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a549c.dir/build.make CMakeFiles/cmTC_a549c.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a549c.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_a549c.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a549c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a549c.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_a549c.dir/CheckIncludeFile.c.o  -o cmTC_a549c -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb2dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb2dd.dir/build.make CMakeFiles/cmTC_fb2dd.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb2dd.dir/LONG_LONG.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_fb2dd.dir/LONG_LONG.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CheckTypeSize/LONG_LONG.c
+Linking C executable cmTC_fb2dd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb2dd.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_fb2dd.dir/LONG_LONG.c.o  -o cmTC_fb2dd -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edfa5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edfa5.dir/build.make CMakeFiles/cmTC_edfa5.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edfa5.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_edfa5.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_edfa5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edfa5.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_edfa5.dir/CheckIncludeFile.c.o  -o cmTC_edfa5 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_454ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_454ee.dir/build.make CMakeFiles/cmTC_454ee.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_454ee.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_454ee.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_454ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454ee.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_454ee.dir/CheckFunctionExists.c.o  -o cmTC_454ee -rdynamic -lpthread 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_306cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_306cf.dir/build.make CMakeFiles/cmTC_306cf.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_306cf.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_306cf.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_306cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_306cf.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_306cf.dir/CheckIncludeFile.c.o  -o cmTC_306cf -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8882.dir/build.make CMakeFiles/cmTC_e8882.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8882.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_e8882.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8882
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8882.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_e8882.dir/CheckIncludeFile.c.o  -o cmTC_e8882 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a82cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a82cf.dir/build.make CMakeFiles/cmTC_a82cf.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a82cf.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_a82cf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a82cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a82cf.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTC_a82cf.dir/CheckFunctionExists.c.o  -o cmTC_a82cf -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d92fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d92fa.dir/build.make CMakeFiles/cmTC_d92fa.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d92fa.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_d92fa.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d92fa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d92fa.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_d92fa.dir/CheckIncludeFile.c.o  -o cmTC_d92fa -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_462ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_462ed.dir/build.make CMakeFiles/cmTC_462ed.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_462ed.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_462ed.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_462ed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_462ed.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_462ed.dir/CheckIncludeFile.c.o  -o cmTC_462ed -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80796/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80796.dir/build.make CMakeFiles/cmTC_80796.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80796.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -march=generic    -o CMakeFiles/cmTC_80796.dir/CheckIncludeFile.c.o   -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80796
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80796.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic     CMakeFiles/cmTC_80796.dir/CheckIncludeFile.c.o  -o cmTC_80796 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a8a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a8a4.dir/build.make CMakeFiles/cmTC_4a8a4.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a8a4.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_4a8a4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a8a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a8a4.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_4a8a4.dir/CheckFunctionExists.c.o  -o cmTC_4a8a4 -rdynamic /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bea0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bea0.dir/build.make CMakeFiles/cmTC_4bea0.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bea0.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -march=generic -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_4bea0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4bea0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bea0.dir/link.txt --verbose=1
+/usr/bin/clang   -march=generic -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_4bea0.dir/CheckFunctionExists.c.o  -o cmTC_4bea0 -rdynamic /usr/lib/liblapack.so.3gf /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_CXX11_FLAG succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01859/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01859.dir/build.make CMakeFiles/cmTC_01859.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01859.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DCOMPILER_HAS_CXX11_FLAG   -std=c++11 -o CMakeFiles/cmTC_01859.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_01859
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01859.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC -DCOMPILER_HAS_CXX11_FLAG    CMakeFiles/cmTC_01859.dir/src.cxx.o  -o cmTC_01859 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46dee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46dee.dir/build.make CMakeFiles/cmTC_46dee.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46dee.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC    -o CMakeFiles/cmTC_46dee.dir/CheckIncludeFile.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_46dee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46dee.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC     CMakeFiles/cmTC_46dee.dir/CheckIncludeFile.cxx.o  -o cmTC_46dee -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_UNORDERED_MAP_IN_STD_NAMESPACE succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_825d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_825d1.dir/build.make CMakeFiles/cmTC_825d1.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_825d1.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DHAVE_UNORDERED_MAP_IN_STD_NAMESPACE   -o CMakeFiles/cmTC_825d1.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_825d1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825d1.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC -DHAVE_UNORDERED_MAP_IN_STD_NAMESPACE    CMakeFiles/cmTC_825d1.dir/src.cxx.o  -o cmTC_825d1 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unordered_map>
+                               int main() {
+                                 std::unordered_map<int, int> map;
+                                 return 0;
+                               }
+Determining if the include file memory exists passed with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a442/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a442.dir/build.make CMakeFiles/cmTC_1a442.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a442.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC    -o CMakeFiles/cmTC_1a442.dir/CheckIncludeFile.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1a442
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a442.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC     CMakeFiles/cmTC_1a442.dir/CheckIncludeFile.cxx.o  -o cmTC_1a442 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_STD_NAMESPACE succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0dca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0dca.dir/build.make CMakeFiles/cmTC_a0dca.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0dca.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -DHAVE_SHARED_PTR_IN_STD_NAMESPACE   -o CMakeFiles/cmTC_a0dca.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a0dca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0dca.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC -DHAVE_SHARED_PTR_IN_STD_NAMESPACE    CMakeFiles/cmTC_a0dca.dir/src.cxx.o  -o cmTC_a0dca -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <memory>
+                               int main() {
+                                 std::shared_ptr<int> int_ptr;
+                                 return 0;
+                               }
+Performing C++ SOURCE FILE Test HAVE_RETURN_TYPE_C_LINKAGE succeded with the following output:
+Change Dir: /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc0f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc0f5.dir/build.make CMakeFiles/cmTC_cc0f5.dir/build
+make[1]: Entering directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc0f5.dir/src.cxx.o
+/usr/bin/clang++     -march=generic --std=c++11 -fPIC -Werror=all -Werror=extra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600 -DHAVE_RETURN_TYPE_C_LINKAGE   -Wno-return-type-c-linkage -o CMakeFiles/cmTC_cc0f5.dir/src.cxx.o -c /home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc0f5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0f5.dir/link.txt --verbose=1
+/usr/bin/clang++    -march=generic --std=c++11 -fPIC -Werror=all -Werror=extra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers -Qunused-arguments -mllvm -inline-threshold=600 -DHAVE_RETURN_TYPE_C_LINKAGE    CMakeFiles/cmTC_cc0f5.dir/src.cxx.o  -o cmTC_cc0f5 -rdynamic 
+make[1]: Leaving directory '/home/pi/Downloads/openMVG_Build2/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
